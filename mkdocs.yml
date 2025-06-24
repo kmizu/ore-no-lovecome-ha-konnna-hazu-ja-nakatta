@@ -22,7 +22,6 @@ theme:
     text: Noto Sans JP
     code: Source Code Pro
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
