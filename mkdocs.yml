@@ -1,0 +1,100 @@
+site_name: 俺のラブコメはこんなはずじゃなかった
+site_description: 美少女ゲームやエロゲーをメタる抱腹絶倒の傑作ラブコメ
+site_author: Mizushima
+site_url: https://kmizu.github.io/ore-no-lovecome-ha-konnna-hazu-ja-nakatta
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  font:
+    text: Noto Sans JP
+    code: Source Code Pro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - ホーム: index.md
+  - キャラクター:
+    - 主人公: characters/protagonist.md
+    - ヒロイン: characters/heroine.md
+    - サブキャラクター: characters/sub_characters.md
+  - 第1部 日常編:
+    - 第1章 俺の幼馴染がこんなに可愛いわけがない: part1/chapter01.md
+    - 第2章 ツンデレ属性が見当たらない件: part1/chapter02.md
+    - 第3章 イベントCGのアングルとは: part1/chapter03.md
+    - 第4章 選択肢が出ない人生: part1/chapter04.md
+    - 第5章 フラグ管理の重要性: part1/chapter05.md
+    - 第6章 幼馴染ルートの難易度: part1/chapter06.md
+    - 第7章 サブヒロインという概念: part1/chapter07.md
+    - 第8章 好感度パラメータの可視化: part1/chapter08.md
+    - 第9章 日常回という名の苦行: part1/chapter09.md
+    - 第10章 転校生イベントの予感: part1/chapter10.md
+    - 第11章 共通ルートの終わり: part1/chapter11.md
+  - 第2部 波乱編:
+    - 第12章 ライバルキャラの登場: part2/chapter12.md
+    - 第13章 修羅場展開への突入: part2/chapter13.md
+    - 第14章 バッドエンドフラグ: part2/chapter14.md
+    - 第15章 すれ違いイベント: part2/chapter15.md
+    - 第16章 サブキャラの助言: part2/chapter16.md
+    - 第17章 回想シーンという救済: part2/chapter17.md
+    - 第18章 選択ミスのツケ: part2/chapter18.md
+    - 第19章 セーブデータがない現実: part2/chapter19.md
+    - 第20章 幼馴染の涙: part2/chapter20.md
+    - 第21章 主人公の覚悟: part2/chapter21.md
+    - 第22章 最後の選択: part2/chapter22.md
+  - 第3部 完結編:
+    - 第23章 リアルタイムアタック: part3/chapter23.md
+    - 第24章 素直になれない理由: part3/chapter24.md
+    - 第25章 十年来の想い: part3/chapter25.md
+    - 第26章 ゲームでは描けないもの: part3/chapter26.md
+    - 第27章 幼馴染の本音: part3/chapter27.md
+    - 第28章 二人だけのイベント: part3/chapter28.md
+    - 第29章 告白という名のラスボス: part3/chapter29.md
+    - 第30章 現実のトゥルーエンド: part3/chapter30.md
+    - 第31章 エピローグへの道: part3/chapter31.md
+    - 第32章 俺たちのラブコメ: part3/chapter32.md
+    - 第33章 そして日常は続く: part3/chapter33.md
+  - その他:
+    - あとがき: extras/afterword.md
+    - 設定資料: extras/settings.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ore_no_lovecome
+    - icon: fontawesome/brands/github
+      link: https://github.com/ore-no-lovecome
+
+copyright: Copyright &copy; 2025 - 俺のラブコメ製作委員会
